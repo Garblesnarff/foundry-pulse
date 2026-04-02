@@ -17,7 +17,8 @@ let package = Package(
     targets: [
         .executableTarget(
             name: "FoundryPulse",
-            path: "Sources"
+            path: "Sources",
+            resources: [.process("PrivacyInfo.xcprivacy")],
         )
     ]
 )

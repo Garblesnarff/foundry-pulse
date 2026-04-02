@@ -1,0 +1,14 @@
+{
+  "app_name": "Pulse",
+  "subtitle": "Menu Bar System Monitor",
+  "description": "Pulse is a lightweight system monitor that lives in your menu bar, giving you instant access to critical Mac performance data without cluttering your workspace. Track CPU usage, memory pressure, disk activity, and thermal readings at a glance through elegant sparkline graphs that update in real time.\n\nClick the menu bar icon to expand a detailed overview of every core metric. Pulse shows per-core CPU utilization, memory breakdown by category, swap usage, disk read and write rates, and sensor temperatures across your entire system. Historical sparklines let you spot trends and identify when resource pressure started.\n\nConfigure threshold alerts to get notified when CPU usage spikes, memory runs low, or temperatures climb into concerning ranges. Pulse delivers native macOS notifications so you can respond before performance degrades or thermal throttling kicks in.\n\nDesigned to be always on without getting in the way, Pulse uses minimal resources itself. The menu bar display is fully customizable: choose which metrics to show, pick compact or expanded graph styles, and select a color scheme that fits your desktop.\n\nKey Features:\n- Real-time CPU, memory, disk, and temperature monitoring\n- Sparkline graphs in the menu bar for at-a-glance tracking\n- Per-core CPU utilization and memory category breakdown\n- Configurable threshold alerts with native notifications\n- Historical data trends to identify performance patterns\n- Minimal resource footprint for always-on monitoring\n- Customizable menu bar display and color themes\n- Fan speed and thermal sensor readings",
+  "keywords": "system monitor,cpu,memory,temperature,menu bar,activity,performance,ram,stats,thermal",
+  "primary_category": "Utilities",
+  "secondary_category": "Developer Tools",
+  "age_rating": "4+",
+  "copyright": "2026 Hanson Foundry",
+  "privacy_url": "https://hansonfoundry.com/privacy",
+  "support_url": "https://hansonfoundry.com/support",
+  "version": "1.0.0",
+  "bundle_id": "com.hansonfoundry.Pulse"
+}
