@@ -28,11 +28,13 @@
 		C1F42F4F281AB4D429DC03FA /* MetricCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A54927ECA25B8E6A3647E5 /* MetricCircle.swift */; };
 		CB4A98269B7E7B0FC63A6E6A /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE55E3A817CFBCDEE1FD719 /* DatabaseManager.swift */; };
 		D229C73B78487960D7F40225 /* MenuBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1075EB544824787E2D97B65 /* MenuBarView.swift */; };
+		EA7010DB14A757084DBB096F /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 2296784CF1B8020DE1AD091A /* PrivacyInfo.xcprivacy */; };
 		FE1327891BE592C081C9697B /* OverviewTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1615E91D25607975A49A17A1 /* OverviewTab.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1615E91D25607975A49A17A1 /* OverviewTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewTab.swift; sourceTree = "<group>"; };
+		2296784CF1B8020DE1AD091A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		351FB01A874BD367B46ABB7C /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		3AA86C74187C63567920176B /* FoundryPulseWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundryPulseWidget.swift; sourceTree = "<group>"; };
 		3E50BDC5DE9232FD34378E33 /* SettingsTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTab.swift; sourceTree = "<group>"; };
@@ -120,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				3F467E2D1F06D77CA09A3086 /* FoundryPulseApp.swift */,
+				2296784CF1B8020DE1AD091A /* PrivacyInfo.xcprivacy */,
 				6A0D90C2541DAFD3717136EB /* Models */,
 				33E268701C02AA2D0C9D9051 /* Sensors */,
 				DF24E1E118EB5A65970592B9 /* Utilities */,
@@ -159,6 +162,7 @@
 			buildConfigurationList = 977C23297ABA9BB774F2D5A4 /* Build configuration list for PBXNativeTarget "FoundryPulse" */;
 			buildPhases = (
 				9D9EB00B373194F08F2CB31C /* Sources */,
+				9E21E3D09745DA6AFBECD860 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -203,6 +207,17 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9E21E3D09745DA6AFBECD860 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA7010DB14A757084DBB096F /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9D9EB00B373194F08F2CB31C /* Sources */ = {
@@ -250,7 +265,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.hanson-foundry.foundrypulse";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hanson-foundry.pulse;
 				PRODUCT_NAME = FoundryPulse;
 				SDKROOT = macosx;
 				SWIFT_STRICT_CONCURRENCY = minimal;
@@ -271,7 +286,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.hanson-foundry.foundrypulse";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hanson-foundry.pulse;
 				PRODUCT_NAME = FoundryPulse;
 				SDKROOT = macosx;
 				SWIFT_STRICT_CONCURRENCY = minimal;

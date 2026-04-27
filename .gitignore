@@ -3,3 +3,6 @@ build/
 *.xcodeproj/xcuserdata/
 DerivedData/
 .swiftpm/
+
+._build
+*.xcodeproj/project.xcworkspace/
